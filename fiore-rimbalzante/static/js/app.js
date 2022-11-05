@@ -39,25 +39,3 @@ function draw(){
     }
 }
 
-/* 
-
-let x = 320;
-let y = 180;
-let xspeed = 5;
-let yspeed = 2;
-
-let r = 25;
-
-x += xspeed;
-  y += yspeed;
-  if (x > width - r || x < r) {
-    xspeed = -xspeed;
-  }
-  if (y > height - r || y < r) {
-    yspeed = -yspeed;
-  }
-
-
-
-
-*/
