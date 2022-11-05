@@ -6,10 +6,12 @@ function setup() {
 let counter = 0;
 
 function draw() {
+  noStroke();
   circle(random(0, 1000), random(0, 1000), random(30, 90));
   fill(random(0, 255), random(0, 255), random(0, 255), random(0, 255));
   counter++;
   if (counter > 1000) {
     background(255, 255, 255);
+    counter = 0;
   }
 }
